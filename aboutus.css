@@ -1,0 +1,155 @@
+body, p, h1, h2, h3, h4, h5, img {
+	margin:0px;
+	padding:0px;
+}
+
+/*********General***********/
+body {
+	background-image: url('images/homelessman.jpg');
+	background-size:cover;
+	background-repeat: no-repeat;
+	font-family: futura;
+}
+
+h3 {
+	text-align: center;
+	color:brown;
+	padding-top: 30px;
+}
+
+h1 {
+	text-align:center;
+	padding-bottom: 30px ;
+	color:floralwhite;
+	font-size: 65px;
+	outline-style: solid;
+	outline-color: navy;
+}
+
+a {
+	color:navy;
+	text-decoration: none;
+}
+
+a:hover {
+	color:floralwhite;
+}
+
+
+/*********Header***********/
+
+header{
+  background-color: floralwhite;
+  padding:15px;
+  font-family: futura; 
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+
+header img {
+  float: left;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+header li {
+    display: inline;
+    padding-bottom: 30px;
+    padding-right: 150px;
+}
+
+header a {
+    width: 120px;
+    font-weight: bold;
+    color: navy;
+    padding: 4px;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: brown;
+}
+
+/*********social**********/
+
+#social {
+	margin:none;
+	position:absolute;
+  	bottom:20px;
+  	left:0;
+}
+
+#social ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#social li {
+	padding-bottom: 10px;
+	font-size: 15px;
+}
+
+#social a {
+	color:navy;
+	text-decoration: none;
+}
+
+#social a:hover{
+	color:floralwhite;
+}
+
+/*********footer**********/
+
+#logo{
+  height:50px;
+  width: 50px;
+  display: block;
+  position: relative;
+  left:610px;
+}
+
+.footer {
+  font-family:futura;
+  padding-top: 100px;
+  color: #08385c;
+  clear:both;
+}
+
+.col {
+  width:30%;
+  float:left;
+
+}
+
+#footcopy{
+  font-size: 10px;
+  clear:both;
+  text-align: center
+}
+
+ul{
+  list-style: none;
+}
+
+
+.footerlist{
+  position: relative;
+  left:180px;
+  font-size: 12px;
+}
+
+a{
+  color: navy;
+  text-decoration: none;
+}
+
+a:hover {
+    color: brown;
+  }

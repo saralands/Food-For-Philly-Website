@@ -1,0 +1,132 @@
+body {
+  background-image: url('images/foodhelp.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  font-family: futura;
+}
+
+/*********Header***********/
+
+header{
+  background-color: floralwhite;
+  padding:15px;
+  font-family: futura; 
+  font-size: 25px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+header img {
+  float: left;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+header li {
+    display: inline;
+    padding-bottom: 30px;
+    padding-right: 150px;
+}
+
+header a {
+    width: 120px;
+    font-weight: bold;
+    color: #08385c;
+    padding: 4px;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: brown;
+}
+
+#logo2{
+  height: 80px;
+  width: 80px;
+}
+
+#words {
+position:absolute;
+color:#08385c;
+top:250px;
+left:139px;
+font-size: 20pt;
+font-family: futura;
+background-color: white;
+padding: 20px;
+
+}
+
+.resourcelist{
+  color: brown;
+  font-family: futura;
+  font-size: 40px;
+  position: absolute;
+  left:600px;
+  padding: 20px;
+  margin: 60px;
+  line-height: 2;
+  text-align: center
+
+}
+
+.resourcelist a {
+  color:white;
+  text-decoration: none;
+}
+
+.resourcelist a:hover{
+  color: brown;
+}
+
+
+
+
+/******Footer*******/
+
+#logo{
+  height:50px;
+  width: 50px;
+  display: block;
+  position: relative;
+  left:610px;
+}
+
+.footer {
+  background-color: floralwhite;
+  font-family:futura;
+  color: #08385c;
+  padding-top: 30px;
+
+
+}
+
+
+.col {
+  width:30%;
+  float:left
+
+}
+
+#footcopy{
+  font-size: 10px;
+  clear:both;
+  text-align: center
+}
+
+ul{
+  list-style: none;
+}
+
+
+.footerlist{
+  position: relative;
+  left:180px;
+  font-size: 12px;
+}

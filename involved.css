@@ -1,0 +1,133 @@
+body, p, h1, h2, h3, h4, h5, img {
+	margin:0px;
+	padding:0px;
+}
+
+/*********General***********/
+body {
+	background-image: url('images/hands.jpg');
+	background-size:cover;
+	background-repeat: no-repeat;
+	font-family: futura;
+}
+
+h1 {
+	text-align:center;
+	padding-bottom: 30px ;
+	padding-top: 30px;
+	color:floralwhite;
+	font-size: 45px;
+	outline-style: solid;
+	outline-color: navy;
+}
+
+#list ul {
+	list-style-type: none;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 25px;
+
+	
+}
+
+a {
+	color:floralwhite;
+	text-decoration: none;
+}
+
+a:hover {
+	color:navy;
+}
+
+
+/*********Header***********/
+
+header{
+  background-color: floralwhite;
+  padding:15px;
+  font-family: futura; 
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+
+header img {
+  float: left;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+header li {
+    display: inline;
+    padding-bottom: 30px;
+    padding-right: 150px;
+}
+
+header a {
+    width: 120px;
+    font-weight: bold;
+    color: navy;
+    padding: 4px;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: brown;
+}
+
+
+/*********Footer***********/
+
+#logo{
+  height:50px;
+  width: 50px;
+  display: block;
+  position: relative;
+  left:610px;
+}
+
+.footer {
+  background-color: floralwhite;
+  font-family:futura;
+  color: #08385c;
+  padding-top: 50px;
+  clear:both;
+}
+
+.col {
+  width:30%;
+  float:left;
+
+}
+
+#footcopy{
+  font-size: 10px;
+  clear:both;
+  text-align: center
+}
+
+ ul{
+  list-style: none;
+}
+
+
+.footerlist{
+  position: relative;
+  left:180px;
+  font-size: 12px;
+}
+
+a{
+  color: navy;
+  text-decoration: none;
+}
+
+a:hover {
+    color: brown;
+  }
